@@ -221,16 +221,17 @@ button {
   width: 25rem;
   border-radius: 0.7rem;
   padding: 0.7rem;
+  font-family: "Font Awesome 5 Free";
 }
 
 .about__bottom input::-webkit-input-placeholder {
-  font-family: FontAwesome;
-  font-weight: normal;
+  /* font-family: FontAwesome; */
+  font-size: 1.1rem;
   overflow: visible;
   vertical-align: top;
-  display: inline-block !important;
+  /* display: inline-block !important; */
   padding-left: 5px;
-  padding-top: 2px;
+  padding-top: 4px;
   color: #828282;
 }
 
@@ -378,7 +379,7 @@ button {
 
 /* // Medium devices (tablets, 768px and up) */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 766px) {
   .navbar .login {
     margin-left: 0;
   }
@@ -386,7 +387,8 @@ button {
 
   .about {
     flex-wrap: wrap;
-    padding: 6rem 20px;
+    padding: 4rem 20px;
+    padding-bottom: 2rem;
   }
 
   .about__right {
@@ -405,8 +407,9 @@ button {
 
   /* KITCHEN SECTION */
   .kitchen {
-    padding: 4rem 20px;
+    padding: 1rem 20px;
     flex-wrap: wrap;
+    padding-bottom: 2rem;
   }
 
   .kitchen__info {
@@ -421,8 +424,9 @@ button {
 
 /* FOOD SECTION */
 .food {
-    padding: 4rem 20px;
+    padding: 1rem 20px;
     flex-wrap: wrap;
+    padding-bottom: 2rem;
   }
 
   .food__info {
