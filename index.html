@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+      <a href="#" class="logo">
+        <img src="./images/Vector.png" alt="Fress logo" />
+      </a>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="#" class="nav-links">Become a Cook</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Join as Foodie</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links login">Login</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="about">
+      <div class="about__left">
+        <div class="about__top">
+          <div class="about__image">
+            <img
+              class="cook-photo"
+              src="./images//Vector (1).png"
+              alt="about image"
+            />
+          </div>
+          <div class="about__text">
+            <div class="about__text-top">
+              <h1 class="text-lg">Welcome to maria's italian kitchen</h1>
+              <p class="text-sm">
+                I was born in pulgia, the south of italy and grew up in a small
+                village surrounded by olive groove and vine. My mother and I
+                used to spend a lot of time in the kitchen
+                <a href="#">Read more</a>
+              </p>
+            </div>
+            <div class="about__text-bottom">
+              <p>Following 27</p>
+              <p>Followers 16k</p>
+              <p>Joined september 2013</p>
+              <p>Lives and cooks in England</p>
+            </div>
+          </div>
+        </div>
+        <div class="about__bottom">
+          <input type="text" placeholder="&#61442; send a message" />
+        </div>
+      </div>
+      <div class="about__right">
+        <button class="btn-red">Follow @pastanana</button>
+        <button class="btn-outiline-red">share kitchen</button>
+      </div>
+    </section>
+
+    <section class="kitchen">
+      <h2 class="text-md">My Kitchen</h2>
+      <div class="kitchen__images">
+        <div class="kitchen__info">
+          <img
+            class="kitchen__photo"
+            src="./images/Vector (2).png"
+            alt="kitchen 1 photo"
+          />
+          <i class="fas fa-heart"></i>
+        </div>
+        <div class="kitchen__info">
+          <img
+            class="kitchen__photo"
+            src="./images/Vector (2).png"
+            alt="kitchen 2 photo"
+          />
+          <i class="fas fa-heart"></i>
+        </div>
+        <div class="kitchen__info">
+          <img
+            class="kitchen__photo"
+            src="./images/Vector (2).png"
+            alt="kitchen 3 photo"
+          />
+          <i class="fas fa-heart"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="food">
+      <h2 class="text-md">My Food</h2>
+      <div class="food__images">
+        <div class="food__info" id="myBtn">
+          <img
+            class="food__photo"
+            src="./images/Vector (5).png"
+            alt="food 1 photo"
+          />
+          <i class="fas fa-heart"></i>
+          <p class="food__name">Spicy Morroccan Shakshuka</p>
+        </div>
+        <div class="food__info" id="img2">
+          <img
+            class="food__photo"
+            src="./images/Vector (9).png"
+            alt="food 2 photo"
+          />
+          <i class="fas fa-heart"></i>
+          <p class="food__name">Peasant beans & bean stew</p>
+        </div>
+        <div class="food__info" id="img3">
+          <img
+            class="food__photo"
+            src="./images/Vector (6).png"
+            alt="food 3 photo"
+          />
+          <i class="fas fa-heart"></i>
+          <p class="food__name">hearty beef bourguignon</p>
+        </div>
+        <div class="food__info" id="img4">
+          <img
+            class="food__photo"
+            src="./images/Vector (7).png"
+            alt="food 3 photo"
+          />
+          <i class="fas fa-heart"></i>
+          <p class="food__name">Royal lamb safron rice pilau</p>
+        </div>
+        <div class="food__info" id="img5">
+          <img
+            class="food__photo"
+            src="./images/Vector (8).png"
+            alt="food 3 photo"
+          />
+          <i class="fas fa-heart"></i>
+          <p class="food__name">Spicy Spanish patatas bravas</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODALS -->
+
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="food-modal">
+          <img
+            class="food-modal__photo"
+            src="./images/Vector (5).png"
+            alt="food 1 photo"
+          />
+          <i class="fas fa-heart"></i>
+          <p class="food__name">Spicy Morroccan Shakshuka</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="food-modal">
+            <img
+              class="food-modal__photo"
+              src="./images/Vector (9).png"
+              alt="food 2 photo"
+            />
+            <i class="fas fa-heart"></i>
+            <p class="food__name">Spicy Morroccan Shakshuka</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal3" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="food-modal">
+            <img
+              class="food-modal__photo"
+              src="./images/Vector (6).png"
+              alt="food 2 photo"
+            />
+            <i class="fas fa-heart"></i>
+            <p class="food__name">Spicy Morroccan Shakshuka</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal4" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="food-modal">
+            <img
+              class="food-modal__photo"
+              src="./images/Vector (7).png"
+              alt="food 2 photo"
+            />
+            <i class="fas fa-heart"></i>
+            <p class="food__name">Spicy Morroccan Shakshuka</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal5" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="food-modal">
+            <img
+              class="food-modal__photo"
+              src="./images/Vector (8).png"
+              alt="food 2 photo"
+            />
+            <i class="fas fa-heart"></i>
+            <p class="food__name">Spicy Morroccan Shakshuka</p>
+          </div>
+        </div>
+      </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
